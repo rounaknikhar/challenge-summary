@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+  }
+
+body {
+    background-color: hsl(0, 0%, 90%);
+    font-family: 'HankenGrotesk';
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.container {
+    margin:10vh auto;
+    height: 380px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 15px 13px 56px -5px rgba(189,189,189,1);
+    -moz-box-shadow: 15px 13px 56px -5px rgba(189,189,189,1);
+    box-shadow: 15px 13px 56px -5px rgba(189,189,189,1);
+}
+
+.result-content {
+    color: #fefdff;
+    background: rgb(51,44,235);
+    background: -moz-linear-gradient(0deg, rgba(51,44,235,1) 35%, rgba(103,67,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(51,44,235,1) 35%, rgba(103,67,255,1) 100%);
+    background: linear-gradient(0deg, rgba(51,44,235,1) 35%, rgba(103,67,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#332ceb",endColorstr="#6743ff",GradientType=1);
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.result-content .inner-padding {
+    padding: 27px 39px;
+}
+
+.result-content p {
+    display: block;
+    text-align: center;
+    color: #cdc4ff;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.result-content .headline {
+    color: #cdc4ff;
+    font-size: 18px;
+}
+
+.result-content .main-number {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.result-content .sub-line {
+    font-size: 20px;
+}
+
+.result-content .result {
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    margin: 20px auto;
+    padding: 25px;
+    background: rgb(51,44,235);
+    background: -moz-linear-gradient(0deg, rgba(51,44,235,0) 0%, rgba(3,0,83,0.08959208683473385) 30%, rgba(3,0,83,0.2520570728291317) 57%, rgba(79,36,204,0.8150822829131652) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(51,44,235,0) 0%, rgba(3,0,83,0.08959208683473385) 30%, rgba(3,0,83,0.2520570728291317) 57%, rgba(79,36,204,0.8150822829131652) 100%);
+    background: linear-gradient(0deg, rgba(51,44,235,0) 0%, rgba(3,0,83,0.08959208683473385) 30%, rgba(3,0,83,0.2520570728291317) 57%, rgba(79,36,204,0.8150822829131652) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#332ceb",endColorstr="#4f24cc",GradientType=1);
+}
+
+.result-content .result p{
+    margin-top: 0;
+}
+
+.summary-content {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.summary-content .inner-padding {
+    padding: 30px;
+}
